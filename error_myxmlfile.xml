@@ -1,0 +1,2231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>Kaiseisha</title>
+	<link>http://tsutomuishida.co.uk/kaiseisha</link>
+	<description>Just another WordPress site</description>
+	<pubDate>Mon, 11 Jan 2016 21:40:56 +0000</pubDate>
+	<language>en-GB</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>http://tsutomuishida.co.uk/kaiseisha</wp:base_site_url>
+	<wp:base_blog_url>http://tsutomuishida.co.uk/kaiseisha</wp:base_blog_url>
+
+	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>admin</wp:author_login><wp:author_email>tsutomuishida@mac.com</wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+	<generator>http://wordpress.org/?v=4.3.2</generator>
+	
+	<item>
+		<title>Ryoji Arai</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/ryoji_arai</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in 1956 in Yamagata. Author and illustrator of picture books. He received the Bologna Ragazzi Award at the Bologna Children’s Book Fair in 1999 for “Dr. Do-Riddle in the Riddle Land” (Froebelkan), and has won many other awards for children’s books in Japan.
+He also won The Astrid Lindgren Memorial Award in 2005. He is currently one of the most prolific illustrator authors in Japan, whose work gives rise to innovative new picture books.
+His illustrations have a wide following and the fields in which they are used range from advertising to the performing arts and CD covers.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>ryoji_arai</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{i:0;s:3:"CT1";i:1;s:3:"CT2";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://www.ryoji-arai.info]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[Japanese only]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/ryoji_arai_b.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Mitsuhiko Imamori</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/mitsuhiko_imamori</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in 1954 in Shiga Prefecture. When still a university student, Imamori began to take trips around Malaysia and Indonesia with a camera in one hand, and after graduation began work as a freelance photographer. From then on, he took photos studying diverse environments such as tropical rainforests and deserts through the insects living in them. The winner of many prizes and awards, he is interested in passing on his enthusiasm to children, and organises regular observation events. Living in the mountains near Japan’s biggest lake, Lake Biwako, Imamori is continually observing the lives of the living beings around him. ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>mitsuhiko_imamori</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{i:0;s:3:"CT1";i:1;s:3:"CT3";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[26]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/mitsuhiko_imamori.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Satoshi Kako</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/satoshi_kako</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in Fukui in 1926. Graduated from the Tokyo University Faculty of Engineering, Department of Applied Chemistry in 1948. He is a Doctor of Engineering as well as a Professional Engineer (chemistry). While working at a private chemical company laboratory, he was also involved in settlement activities and children’s councils. After leaving the company in 1973, he has been working as a picture book author. His works (more than 500 titles) range widely, from story picture books to educational picture books on science. Some of his major works are: the Kako Satoshi Ohanashi-no Hon series, (Kaisei-sha), Daruma-chan series (Fukuonkan Shoten Publishers). He received the Kikuchi Kan Award in 2008 and the Special Achievement Award from the Chemical Society of Japan in 2009.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>satoshi_kako</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{i:0;s:3:"CT1";i:1;s:3:"CT2";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[34]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/satoshi_kako.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Hiroshi Saito</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/hiroshi_saito</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in 1952 in Tokyo, Saito is a popular novelist who has established a name for original ideas and skilful story telling. He is able to work in a wide variety of different literary genres, ranging from the nonsensical to the historical. He has a large fan base, and has been awarded many prizes for children’s literature in Japan. In addition to being a novelist, he is also Professor of Business Administration at Asia University.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>hiroshi_saito</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT1";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[79]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Akiko Sueyoshi</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/akiko_sueyoshi</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[After studying English Literature at university, she worked for a publishing company where she specialized in editing children’s literature.
+In 1974 she started devoting herself to creative writing. She is known for the bold ideas and strong structures that she uses in her fantasy stories.
+She has won the Noma Award for Children’s Literature and the Shogakukan Cultural Prize in Publishing for Children’s Literature.
+A noted writer of children’s fantasy, Sueyoshi prefers a sharp, concise style to lyrical prose. Her stories generally have a modern setting, and succeed by detailed description and by mixing the fantasy with a high degree of realism.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>akiko_sueyoshi</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT1";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[90]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Mamoru Suzuki</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/mamoru_suzuki</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in Tokyo in 1952, Suzuki attended Tokyo National University of Fine Arts and Music.
+He won the AKAITORI Award for illustration for his ‘Sangoro, the Black Cat’ series, and has produced many popular children’s books including those on vehicles.
+For the past twenty years, he has lived in the mountains, and has become captivated by the wonder of birds’ nests. He collects and studies them, and has written many books on the subject.
+He has also exhibited his collection of birds’ nests in Japan and New York.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>mamoru_suzuki</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{i:0;s:3:"CT1";i:1;s:3:"CT2";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://www.i-younet.ne.jp/~basaract/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[92]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/mamoru_suzuki_big.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Hoko Takadono</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/hoko_takadono</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Takadono was born in 1955, and began writing children’s literature after graduating from university. She specializes in stories for those beginning to read, and has won numerous awards for her books. She often illustrates her work herself, and has recently become active in adult literature as well. She lives in Hokkaido, the northernmost island of Japan.
+	]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>hoko_takadono</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{i:0;s:3:"CT1";i:1;s:3:"CT2";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[94]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/hoko_takadono_b.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Minoru Taketazu</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/minoru_taketazu</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in 1937 in Oita. After graduating from Veterinary School, Taketazu worked as a veterinarian in Hokkaido. Since 1972, he has tried to protect, cure and rehabilitate injured wild animals, and continues to this day to observe them closely. He is also famous as an essayist and photographer. The release of the 2007 film, “Helen the Fox Cub”, based on Taketazu’s story of a fox cub patient at his surgery, attracted a good deal of public attention and increased interest in Taketazu’s work.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>minoru_taketazu</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{i:0;s:3:"CT1";i:1;s:3:"CT3";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[96]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/minoru_taketazu_b.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Seizo Tashima</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/seizo_tashima</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in Osaka in 1940. He moved to contryside in Tokyo in 1969 and while recreating scenes and words from his very rural life, he also painted nature, animals and children.
+With his strong painting style, he worked prolifically producing pieces such as ‘Drop a Stone and Forget’ and ‘Ball in the Grass’.
+He has won many awards including the BIB Golden Apple Award for ‘Chikara Taro’ in 1969, and the Bologna International Book Fair Graphic Prize for ‘Fly, Grasshopper!’ in 1989.
+He has recently been putting his writing ability to good use and is actively involved in environmental issues.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>seizo_tashima</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{i:0;s:3:"CT1";i:1;s:3:"CT2";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[101]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Shigeru Tamura</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/shigeru_tamura</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in 1949 in Tokyo. Illustrator and animator.
+Tamura expresses poetic and fantastic worlds through his picture books, animated cartoons, motion pictures and CDs. His pictures, which use a variety of different mediums such as watercolours, coloured pencils, graphics and photographs are loved by many, he is the recipient of many children’s book awards and animation prizes in Japan.
+His illustrations have recently been used for the covers of monthly magazines and he works in an increasing number of fields. ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>shigeru_tamura</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{i:0;s:3:"CT1";i:1;s:3:"CT2";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://www.tamurashigeru.com/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[Japanese only]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[102]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/shigeru_tamura_big.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Yoko Tomiyasu</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/yoko_tomiyasu</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in Tokyo in 1959.
+In addition to being chosen for the IBBY Honour List 2002, Tomiyasu has also won many prizes for children’s literature in Japan.
+Her fantasy stories, which are imaginatively inspired by Japanese folk tales and flavoured with modern day humour, are loved by many children. ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>yoko_tomiyasu</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT1";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[103]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/yoko_tomiyasu_b.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Taro Miura</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/taro_miura</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in 1968 in Aichi prefecture, Miura graduated from Osaka University of Arts, where he specialized in silkscreen printing.
+He was first awarded a Fiction prize at the Bologna Children’s Book Fair in 2001, and has now won prizes at the same competition for Fiction or Non-Fiction every year since 2003. Many of his works are published overseas, by companies such as Italy’s Edizioni Corraini and Spain’s Media Vaca. A father himself, Miura is especially acknowledged in Japan for his series of infant picture-books.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>taro_miura</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{i:0;s:3:"CT1";i:1;s:3:"CT2";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://www.taromiura.com/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[English/Japanese]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[113]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/taro_miura_big.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Ken Kuroi</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/ken_kuroi</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in 1947 in Niigata. After graduating with an art degree, Kuroi worked in a publishing company before leaving to take up freelance illustration. Now a popular illustrator, esteemed for his heart-warming finger-smudged technique and sensitive colouration, Kuroi’s collaborative works with Nancy Carlstrom, “Swim the Silver Sea, Joshie Otter” (Putnam) and “Midnight Dance of the Snowshoe Hare” (Philomel) are published in America. In 2003, his gallery, Ken Kuroi’s Picture Book House, opened, where his work is constantly displayed.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>ken_kuroi</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{i:0;s:3:"CT1";i:1;s:3:"CT2";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[129]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/ken_kuroi_big.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Kazuo Unno</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/kazuo_unno</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in Tokyo in 1947 and graduated from Tokyo University of Agriculture and Technology. After that, Unno travelled through America and Asia’s tropical rainforests as a freelance photographer and insect researcher, taking photos and videos. An expert on insects, especially insect camouflage and disguise, Unno is a participant in various lectures as well as Japanese radio and television programmes.
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>kazuo_unno</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{i:0;s:3:"CT1";i:1;s:3:"CT3";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://eco.goo.ne.jp/nature/unno/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[Japanese only]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[135]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/kazuo_unno_b.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Junko Hayakawa</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/junko_hayakawa</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in Tokyo in 1970, Hayakawa graduated from Tama Art University. She makes prints for picture books a nd illustrations. Her past picture books include “You Don’t Have To Believe It” (Billiken Shuppan), “Insomnia” (Parol-sha), “Mr. Midnight” (Goblin Shobo), “Summer Holiday in Monster Island” (Poplar-sha), “The Book of Cheese” and “The Book of Adzuki Beans” (Nobunkyo), “The Can House” (Holp Shuppan) and “The Fast-Speaking Piglets” (Zuiunsha). Her illustration work includes “The Obsessed Man” (Billiken Shuppan) and “Welcome to the Sunset Country” (Froebel-kan). She currently lives in Tokyo. ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>junko_hayakawa</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT2";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[168]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Satomi Ichikawa</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/satomi_ichikawa</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in Gifu Prefecture. After graduating from college, she went to Paris, where she taught herself to paint. In 1975, her first book "A Child’s Book of Seasons" was published by Heinemann Young Books in the UK.
+Another book, "Suzette and Nicolas at the Market" (Gautier Languereau), won the Critici in Erba Prize at the Bologna Book Fair in 1978. Her particular talent is depicting children and nature. She is active in children’s literary circles in France and the US, as well as in Japan. "Come Fly With Me" (Philomel), "My Father’s Soup" (l’ecole des loisirs) and many other of her titles have been published by publishers outside of Japan.
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>satomi_ichikawa</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT2";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[174]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Chihiro Iwasaki</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/chihiro_iwasaki</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[She has used plenty of water to produce the light colours of the children featured in her paintings and her work is highly respected all over the world.
+In 1973, ‘Kotori no Kuruhi‘, (My Pretty Bird) won the Bologna International Book Fair Graphic Prize.
+Her books have been published and translated in various different countries.
+She died in 1974 and in 1977, her achievements were commemorated through the establishment of the ‘Chihiro Art Museum’ in Tokyo, and in 1977 the ‘Chihiro Art Museum Azumino’ opened its doors in Nagano.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>chihiro_iwasaki</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT2";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[178]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Tatsuro Kiuchi</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/tatsuro_kiuchi</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in Tokyo in 1966. After he graduated from BA in Biology at the International Christian University, Kiuchi went to U.S. and graduated from B.F.A. in Art Center College of Design in Los Angeles.
+He is known around the world for works such as his drawings in the picture book “The Lotus Seed” (text by Sherry Garland/ Harcourt Brace & Company) and recently rocketed to success in the advertising world for his illustrations for the Royal Mail's 2006 Christmas Stamp Collection and Starbucks Worldwide Holiday Promo 2007 "Pass the Cheer".
+He is also very active and popular in the world of book illustration.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>tatsuro_kiuchi</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT2";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://www.tatsurokiuchi.com/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[English/Japanese]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[189]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/tatsuro_kiuchi_big.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Tsutomu Murakami</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/tsutomu_murakami</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in Hyogo in 1943.
+His picture book and fairy story illustrations show a lively creative spirit and his fine, delicate lines and fresh young colours are highly respected all over the world.
+In 1972 and 1989 he won bronze medals for ‘The Most Beautiful Picture Book’ at the International Book Design Exhibition in Leipzig, for ‘I wish I had a big, big tree’ and ‘Sankichi the Fox’.
+His illustrations have wide support and in Japan he is involved in fields such as stamp design.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>tsutomu_murakami</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{i:0;s:3:"CT1";i:1;s:3:"CT2";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[202]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Yasunari Murakami</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/yasunari_murakami</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born 1955 in Gifu. Murakami’s ‘Pink and Old Man Snow’ (Tokuma Shoten) was given a Special Mention in the Graphic Prize for Children at the 1986 Bologna Children’s Book Fair. In 1988, his ‘Present’ (Book Loan Publishing) and the following year his ‘Welcome to the Forest’ (Tokuma Shoten) were also given Special Mentions. His ‘Pink! Pearl!’ won a Gold Plaque at the 1991 Biennial of illustrations in Bratislava. Murakami displays his original illustrations at his private gallery in Ito, Shizuoka. His hobby is fishing, for which he makes many worldwide trips. ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>yasunari_murakami</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT2";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://www.murakami-museum.co.jp/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[Japanese only]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[203]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Hanmo Sugiura</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/hanmo_sugiura</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in Aichi in 1931.
+In 1964, after studying design at university, he established his own design company and began producing original works in the fields of graphics and illustration.
+For his graphic work, he has won ‘Asahi Advertisement Award (Silver Medal)‘, ‘Mainichi Design Award‘ and ‘Japan Advertising Artists Club Award‘ and his children's picture book ‘In a Balloon over Eyelash Ocean‘ was nominated for ‘Graphic Prize‘ in the 1984 Bologna International Book Fair.
+In 1985, Sugiura received ‘The Minister of Education's Art Encouragement Prize For New Artists‘ for his children's picture books, which are famous for their originality of color and composition in Japan and around the world.
+	 Born in Aichi in 1931.
+In 1964, after studying design at university, he established his own design company and began producing original works in the fields of graphics and illustration.
+For his graphic work, he has won ‘Asahi Advertisement Award (Silver Medal)‘, ‘Mainichi Design Award‘ and ‘Japan Advertising Artists Club Award‘ and his children's picture book ‘In a Balloon over Eyelash Ocean‘ was nominated for ‘Graphic Prize‘ in the 1984 Bologna International Book Fair.
+In 1985, Sugiura received ‘The Minister of Education's Art Encouragement Prize For New Artists‘ for his children's picture books, which are famous for their originality of color and composition in Japan and around the world.
+	 ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>hanmo_sugiura</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT2";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[229]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Jun Takabatake</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/jun_takabatake</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in 1948 in Aichi, Takabatake is a professor at Tokai Women's University.
+His children's book ‘Whose Bicycle?‘ was nominated for ‘Graphic Prize‘ in the 1984 Bologna International Book Fair.
+In 2004, Takabatake won ‘Grand Prix‘ of the ‘Nippon Prize for Picture Books‘ for his ‘Oh! Suppa‘.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>jun_takabatake</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT2";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[235]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Yoko Sano 2</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/yoko_sano_2</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>yoko_sano_2</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT1";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[291]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Noriko Kudoh</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/noriko_kudoh</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in Kanagawa Prefecture, 1970. Graduated from Joshibi Junior College of Art and Design. Currently works as the author of picture books and a manga artist. In 1999, she published her first picture book, ‘Koban The Shark's Sea Tour’, and since then has continued to work on several delightful series of picture books that share a bold use of animal motifs and distinct design. Many of her charming characters have proved so popular that they have been made into children’s toys. She is also well known as a manga artist, and her cartoons are serialised in monthly manga magazines.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>noriko_kudoh</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT1";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[311]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/noriko_kudo.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Kaori Ekuni</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/kaori_ekuni</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in Tokyo, 1964. Graduates from Junior College then moves to America to study. After receiving acclaim for an entry submitted to a children’s literature magazine, Ekuni published several collections of short stories for children. In 1992, she won the Murasaki Shikibu Prize for Literature for ‘Twinkle Twinkle’, a novel for adults. Since then, she has risen to acclaim as a successful author, her novels and short stories being filmed for screen and hitting the top of the best selling lists. In 2004, she won the Naoki Prize, a literary award, for ‘I Was Ready to Burst into Tears'. Her writing, characterised by a transparent style and simplicity of voice, is particularly popular with young women. She is a prolific writer, publishing love stories, essays, and translations of picture books and other fiction. She is one of the most popular female writers working in Japan today.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>kaori_ekuni</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT1";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[312]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/kaori_ekuni.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Masahiko Sato</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/masahiko_sato</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in Shizuoka. Currently a Professor at the Graduate School of Film and New Media at Tokyo University of the Arts. Creates works focused on ideas generated with his students in his research laboratory. Created and oversaw “Pythagora Switch”, an educational television programme first broadcast on NHK in 2002. Now, it has become a perennial children’s favourite, will new episodes still being made and broadcasted. He is active in the development of new games, and in the research of on neuroscience and the nature of expression. He has also written novels and picture books.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>masahiko_sato</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT1";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[321]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Masumi Uchino</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/masumi_uchino</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in Kanagawa. Created and oversaw “Pythagora Switch”, an educational television programme first broadcast on NHK in 2002, where she was responsible for the design of the penguins and the mouse and all the other creatures that appeared on the show. Her songs for children’s programmes – for which she writes both the lyrics and the compositions – are also the beloved theme tunes of countless childhoods.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>masumi_uchino</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT1";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[322]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Akiko Miyakoshi</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/akiko_miyakoshi</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in Saitama in 1982. Graduated from Musashino Art University with a degree in Visual Communication Design. She started to design picture books as a student, going on to hold individual and group exhibitions of her work. In 2007, she spent a year living and working in Berlin, Germany. In 2009, her first picture book, Typhoon Comes (BL Shuppan), won the Picture Book Grand Prize at the 25th Nissan Children’s Storybook and Picture Book Grand Prix. As well as picture books, Akiko’s illustrations are in demand for marketing campaigns and magazines. She currently lives in Tokyo. ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>akiko_miyakoshi</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT1";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://miyakoshiakiko.com/  http://grafz.net/miyakoshi/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[343]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/akiko_miyakoshi_b.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Yutaka Nakagaki</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/yutaka_nakagaki</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[Born in Fukuoka Prefecture in 1977. Graduated from the Faculty of Economics at Teikyo University. Since he began to work as a freelance illustrator in 2005, Yutaka’s illustrations have been featured in magazines and books, on CD covers, and on merchandise. He is also a keen musician, and currently sings with a band.  
+His popular blog features a daily comic strip.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>yutaka_nakagaki</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT1";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://yutaramone.blog105.fc2.com/ http://www.spicerack-sr.com/project/yutaka/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[385]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/yutaka_nakagaki.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>The Cabin Company 2</title>
+		<link>http://tsutomuishida.co.uk/kaiseisha/creator/the_cabin_company_2</link>
+		<pubDate>Mon, 11 Jan 2016 18:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id></wp:post_id>
+		<wp:post_date>2016-01-11 18:26:36</wp:post_date>
+		<wp:post_date_gmt>2016-01-11 18:26:36</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>the_cabin_company_2</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>creator</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:3:"CT1";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_creator_types</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dbc50b8aa]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd3c0b8ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page_0_note</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dd430b8ad]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_home_page</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693dc580b8ab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[472]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_joomla_creator_id</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693f98d7aa52]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+				<wp:meta_key>joomla_image_url</wp:meta_key>
+				<wp:meta_value><![CDATA[creators/dummy_b.jpg]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key>_joomla_image_url</wp:meta_key>
+			<wp:meta_value><![CDATA[field_5693fa0799a1c]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	</channel>
+</rss>
