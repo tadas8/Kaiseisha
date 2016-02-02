@@ -1,18 +1,265 @@
-<?
+<?php
+/**
+ * _tk functions and definitions
+ *
+ * @package _tk
+ */
+
+/**
+ * Set the content width based on the theme's design and stylesheet.
+ */
+if ( ! isset( $content_width ) )
+	$content_width = 750; /* pixels */
+
+if ( ! function_exists( '_tk_setup' ) ) :
+/**
+ * Set up theme defaults and register support for various WordPress features.
+ *
+ * Note that this function is hooked into the after_setup_theme hook, which runs
+ * before the init hook. The init hook is too late for some features, such as indicating
+ * support post thumbnails.
+ */
+function _tk_setup() {
+	global $cap, $content_width;
+
+	// This theme styles the visual editor with editor-style.css to match the theme style.
+	add_editor_style();
+
+	/**
+	 * Add default posts and comments RSS feed links to head
+	*/
+	add_theme_support( 'automatic-feed-links' );
+
+	/**
+	 * Enable support for Post Thumbnails on posts and pages
+	 *
+	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
+	*/
+	add_theme_support( 'post-thumbnails' );
+
+	/**
+	 * Enable support for Post Formats
+	*/
+	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link' ) );
+
+	/**
+	 * Setup the WordPress core custom background feature.
+	*/
+	add_theme_support( 'custom-background', apply_filters( '_tk_custom_background_args', array(
+		'default-color' => 'ffffff',
+		'default-image' => '',
+	) ) );
+	
+	/**
+	 * Make theme available for translation
+	 * Translations can be filed in the /languages/ directory
+	 * If you're building a theme based on _tk, use a find and replace
+	 * to change '_tk' to the name of your theme in all the template files
+	*/
+	load_theme_textdomain( '_tk', get_template_directory() . '/languages' );
+
+	/**
+	 * This theme uses wp_nav_menu() in one location.
+	*/
+	register_nav_menus( array(
+		'primary'  => __( 'Header bottom menu', '_tk' ),
+		'top-menu'  => __( 'Top menu', '_tk' ),
+		'about-us-menu'  => __( 'About Us menu', '_tk' ),
+		'news-menu'  => __( 'News menu', '_tk' ),
+		'backlist-menu'  => __( 'Backlist menu', '_tk' ),
+		'newtitles-menu'  => __( 'New Titles menu', '_tk' ),
+		'overseas-menu'  => __( 'Overseas menu', '_tk' ),
+		'creators-menu'  => __( 'Creators menu', '_tk' ),
+	) );
+
+}
+endif; // _tk_setup
+add_action( 'after_setup_theme', '_tk_setup' );
+
+/**
+ * Register widgetized area and update sidebar with default widgets
+ */
+function _tk_widgets_init() {
+	register_sidebar( array(
+		'name'          => __( 'Sidebar', '_tk' ),
+		'id'            => 'sidebar-1',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+}
+add_action( 'widgets_init', '_tk_widgets_init' );
+
+/**
+ * Enqueue scripts and styles
+ */
+function _tk_scripts() {
+
+	// Import the necessary TK Bootstrap WP CSS additions
+	wp_enqueue_style( '_tk-bootstrap-wp', get_template_directory_uri() . '/includes/css/bootstrap-wp.css' );
+
+	// load bootstrap css
+	wp_enqueue_style( '_tk-bootstrap', get_template_directory_uri() . '/includes/resources/bootstrap/css/bootstrap.min.css' );
+
+	// load Font Awesome css
+	wp_enqueue_style( '_tk-font-awesome', get_template_directory_uri() . '/includes/css/font-awesome.min.css', false, '4.1.0' );
+
+	// load _tk styles
+	wp_enqueue_style( '_tk-style', get_stylesheet_uri() );
+
+	// load bootstrap js
+	wp_enqueue_script('_tk-bootstrapjs', get_template_directory_uri().'/includes/resources/bootstrap/js/bootstrap.min.js', array('jquery') );
+
+	// load bootstrap wp js
+	wp_enqueue_script( '_tk-bootstrapwp', get_template_directory_uri() . '/includes/js/bootstrap-wp.js', array('jquery') );
+
+	wp_enqueue_script( '_tk-skip-link-focus-fix', get_template_directory_uri() . '/includes/js/skip-link-focus-fix.js', array(), '20130115', true );
+
+	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+		wp_enqueue_script( 'comment-reply' );
+	}
+
+	if ( is_singular() && wp_attachment_is_image() ) {
+		wp_enqueue_script( '_tk-keyboard-image-navigation', get_template_directory_uri() . '/includes/js/keyboard-image-navigation.js', array( 'jquery' ), '20120202' );
+	}
+
+}
+add_action( 'wp_enqueue_scripts', '_tk_scripts' );
+
+/**
+ * Implement the Custom Header feature.
+ */
+require get_template_directory() . '/includes/custom-header.php';
+
+/**
+ * Custom template tags for this theme.
+ */
+require get_template_directory() . '/includes/template-tags.php';
+
+/**
+ * Custom functions that act independently of the theme templates.
+ */
+require get_template_directory() . '/includes/extras.php';
+
+/**
+ * Customizer additions.
+ */
+require get_template_directory() . '/includes/customizer.php';
+
+/**
+ * Load Jetpack compatibility file.
+ */
+require get_template_directory() . '/includes/jetpack.php';
+
+/**
+ * Load custom WordPress nav walker.
+ */
+require get_template_directory() . '/includes/bootstrap-wp-navwalker.php';
+
+
+
+
+/* Added functions */
+
+/* Disable WordPress Admin Bar for all users but admins. */
+  show_admin_bar(false);
+
+
+/* Text limit */
+function limit_text($text, $limit) {
+    if (strlen($text) > $limit) {
+        $words = str_word_count($text, 2);
+        $pos = array_keys($words);
+        $text = substr($text, 0, $pos[$limit]) . '...';
+    }
+    return $text;
+}
+
+
+/* Add class to wp_get_archives */
+function my_archives_link($link_html){
+	$link_html = preg_replace('@<li>@i', '<li class="news-archive"><div class="inner">', $link_html);
+	$link_html = preg_replace('@</li>@i', '</div></li>', $link_html);
+	return $link_html;
+}
+add_filter('get_archives_link', 'my_archives_link');
+
+
+/* Force sub-categories to use the parent category template */
+function new_subcategory_hierarchy() {  
+    $category = get_queried_object();
+ 
+    $parent_id = $category->category_parent;
+ 
+    $templates = array();
+     
+    if ( $parent_id == 0 ) {
+        // Use default values from get_category_template()
+        $templates[] = "category-{$category->slug}.php";
+        $templates[] = "category-{$category->term_id}.php";
+        $templates[] = 'category.php';      
+    } else {
+        // Create replacement $templates array
+        $parent = get_category( $parent_id );
+ 
+        // Current first
+        $templates[] = "category-{$category->slug}.php";
+        $templates[] = "category-{$category->term_id}.php";
+ 
+        // Parent second
+        $templates[] = "category-{$parent->slug}.php";
+        $templates[] = "category-{$parent->term_id}.php";
+        $templates[] = 'category.php';  
+    }
+    return locate_template( $templates );
+}
+ 
+add_filter( 'category_template', 'new_subcategory_hierarchy' );
+
+
+
+
+
+
 
 class tadaFunctions{
-	function getSearch($val1 = null, $val2 = null, $val3 = null){
+	function getSearch($metas){
 		$arrMeta = array();
-		if($val1){
-			array_push($arrMeta, array("key"=>"dropdown", "value"=>$val1, "compare"=>"="));
+		$countMeta = 0;
+		if($metas["categories"]){
+			array_push($arrMeta, array("key"=>"categories", "value"=>$metas["categories"], "compare"=>"="));
+			$countMeta++;
 		}
-		if($val2){
-			array_push($arrMeta, array("key"=>"coupon_amount", "value"=>$val2, "compare"=>"="));
+		if($metas["age_groups"]){
+			array_push($arrMeta, array("key"=>"age_groups", "value"=>$metas["age_groups"], "compare"=>"="));
+			$countMeta++;
 		}
-		if($val3){
-			array_push($arrMeta, array("key"=>"discount_type", "value"=>$val3, "compare"=>"LIKE"));
+		if($metas["publication_year"]){
+			array_push($arrMeta, array("key"=>"publication_year", "value"=>$metas["publication_year"], "compare"=>"="));
+			$countMeta++;
 		}
-		$arrMeta["relation"] = 'AND';
+		if($metas["author"]){
+			array_push($arrMeta, array("key"=>"author_1", "value"=>$metas["author"], "compare"=>"="));
+			$countMeta++;
+		}
+		if($metas["illustrator"]){
+			array_push($arrMeta, array("key"=>"illustrator", "value"=>$metas["illustrator"], "compare"=>"="));
+			$countMeta++;
+		}
+		if($metas["photographer"]){
+			array_push($arrMeta, array("key"=>"photographer", "value"=>$metas["photographer"], "compare"=>"="));
+			$countMeta++;
+		}
+		if($metas["inc_or_exc"] && $metas["countries_published_in"]){
+			array_push($arrMeta, array("key"=>"countries_published_in", "value"=>$metas["countries_published_in"], "compare"=>"LIKE"));
+			$countMeta++;
+		}elseif(!$metas["inc_or_exc"] && $metas["countries_published_in"]){
+			array_push($arrMeta, array("key"=>"countries_published_in", "value"=>$metas["countries_published_in"], "compare"=>"NOT LIKE"));
+			$countMeta++;
+		}
+		if($countMeta>1){$arrMeta["relation"] = 'AND';}
 		return $arrMeta;
 	}
 }
+

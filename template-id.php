@@ -23,6 +23,7 @@ get_header();
 			<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 				
 				<?php
+
 				$joomla_creator_id = get_field("joomla_creator_id");
 				$arrTable["$joomla_creator_id"] = get_the_ID();
 
