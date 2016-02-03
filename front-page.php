@@ -197,8 +197,8 @@ endwhile;
 </select>
 
 <br>
-<input type="radio" name="inc_or_exc" value="true" checked>exclude<br>
-<input type="radio" name="inc_or_exc" value="false" checked>include<br>
+<input type="radio" name="inc_or_exc" value="0" checked>exclude<br>
+<input type="radio" name="inc_or_exc" value="1" checked>include<br>
 
 
 <select name="countries_published_in">

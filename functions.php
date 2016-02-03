@@ -236,25 +236,13 @@ class tadaFunctions{
 			$countMeta++;
 		}
 		if($metas["publication_year"]){
-			array_push($arrMeta, array("key"=>"publication_year", "value"=>$metas["publication_year"], "compare"=>"="));
+			array_push($arrMeta, array("key"=>"publication_year", "value"=>array($metas["publication_year"].'-01-01',$metas["publication_year"].'-12-31'), "compare"=>"BETWEEN",'type'=>'DATE'));
 			$countMeta++;
 		}
-		if($metas["author"]){
-			array_push($arrMeta, array("key"=>"author_1", "value"=>$metas["author"], "compare"=>"="));
-			$countMeta++;
-		}
-		if($metas["illustrator"]){
-			array_push($arrMeta, array("key"=>"illustrator", "value"=>$metas["illustrator"], "compare"=>"="));
-			$countMeta++;
-		}
-		if($metas["photographer"]){
-			array_push($arrMeta, array("key"=>"photographer", "value"=>$metas["photographer"], "compare"=>"="));
-			$countMeta++;
-		}
-		if($metas["inc_or_exc"] && $metas["countries_published_in"]){
+		if($metas["inc_or_exc"]==1 && $metas["countries_published_in"]){
 			array_push($arrMeta, array("key"=>"countries_published_in", "value"=>$metas["countries_published_in"], "compare"=>"LIKE"));
 			$countMeta++;
-		}elseif(!$metas["inc_or_exc"] && $metas["countries_published_in"]){
+		}elseif($metas["inc_or_exc"]==0 && $metas["countries_published_in"]){
 			array_push($arrMeta, array("key"=>"countries_published_in", "value"=>$metas["countries_published_in"], "compare"=>"NOT LIKE"));
 			$countMeta++;
 		}
