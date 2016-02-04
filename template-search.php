@@ -5,16 +5,17 @@
 
 get_header();
 
-$title = $_POST["title"];
-$creator_by_name = $_POST["creator_by_name"];
-$categories = $_POST["categories"];
-$age_groups = $_POST["age_groups"];
-$publication_year = $_POST["publication_year"];
-$author_1 = $_POST["author_1"];
-$illustrator = $_POST["illustrator"];
-$photographer = $_POST["photographer"];
-$inc_or_exc = $_POST["inc_or_exc"];
-$countries_published_in = $_POST["countries_published_in"];
+$title = $_GET["title"];
+$creator_by_name = $_GET["creator_by_name"];
+$categories = $_GET["categories"];
+$age_groups = $_GET["age_groups"];
+$publication_year = $_GET["publication_year"];
+$author_1 = $_GET["author_1"];
+$illustrator = $_GET["illustrator"];
+$photographer = $_GET["photographer"];
+$inc_or_exc = $_GET["inc_or_exc"];
+$countries_published_in = $_GET["countries_published_in"];
+$paged = $_GET["paged"];
 
 //$creator_by_name="saeko";
 $arrAuthorMatch=array();
@@ -29,53 +30,56 @@ if($creator_by_name){
 	  array_push($arrAuthorMatch, get_the_ID());
 	endwhile;
 
-	//var_dump($arrAuthorMatch);
+	var_dump($arrAuthorMatch);
 }
 
-if($author_1){
-  array_push($arrAuthorMatch, $author_1);
-}
-
-if($illustrator){
-	array_push($arrAuthorMatch, $illustrator);
-}
-if($photographer){
-	array_push($arrAuthorMatch, $photographer);
-}
-	var_dump($inc_or_exc);
-
-?>
+	//var_dump($inc_or_exc);
 
 
-
-		<?php
+		if(!$paged){
+			$paged = 1;
+		}
 		$searchQuery = new tadaFunctions;
-		if(!$categories && !$age_groups && !$publication_year && !$countries_published_in){
+		if(!$categories && !$age_groups && !$publication_year && !$countries_published_in && !$arrAuthorMatch){
 			$published = array(
 					    'post_type' => 'book',
-					    'posts_per_page' => 500,
+					    'posts_per_page' => 10,
 					    's' => $title,
-					  	'paged' => get_query_var( 'paged' ),
+					  	'paged' => $paged,
 			);			
 		}else{
 			$published = array(
 					    'post_type' => 'book',
 					    's' => $title,
 					    //'post__in' => 
-					    'posts_per_page' => -1,
-					  	'paged' => get_query_var( 'paged' ),
+					    'posts_per_page' => 10,
+					  	'paged' => $paged,
 						'meta_query' => $searchQuery->getSearch(
 							array(
 								"categories"=>$categories,
 								"age_groups"=>$age_groups,
 								"publication_year"=>$publication_year,
+								"author_1"=>$author_1,
+								"illustrator"=>$illustrator,
+								"photographer"=>$photographer,
 								"inc_or_exc"=>$inc_or_exc,
 								"countries_published_in"=>$countries_published_in,
+								"arrAuthorMatch"=>$arrAuthorMatch,
 							)),
 			);				
 		}
 		
 		
+			// $published = array(
+			// 		    'post_type' => 'book',
+			// 		    'posts_per_page' => 500,
+			// 		    's' => $title,
+			// 		  	'paged' => get_query_var( 'paged' ),
+			// 		  	'meta_query' => array(
+			// 		  		array("key"=>"author_1_0_name","value"=>"633", "compare" => "LIKE"),
+			// 		  	)
+			// );	
+
 
 
 		echo "<pre>";var_dump($published);echo "</pre>";
@@ -83,55 +87,52 @@ if($photographer){
 		?>
 		
        	<?php query_posts( $published ); 
+		global $wp_query; 
+		echo "<pre>";var_dump($wp_query->found_posts);echo "</pre>";
+
+		if($wp_query->found_posts < 60){
+			// Start the loop.
+			while ( have_posts() ) : the_post();
 
 
-		// Start the loop.
-		while ( have_posts() ) : the_post();
-			$tmp=get_field("author_1");
-			if(empty($tmp[0]["name"][0]->ID) || empty($arrAuthorMatch)){
-				$cond1 = true;
-			}elseif(in_array($tmp[0]["name"][0]->ID, $arrAuthorMatch)){
-				$cond1 = true;
-			}else{
-				$cond1 = false;
-			}
-
-			$tmp2=get_field("illustrator");
-			//var_dump($tmp2);
-			if(empty($tmp2[0]->ID) || empty($arrAuthorMatch)){
-				$cond2 = true;
-			}elseif(in_array($tmp2[0]->ID, $arrAuthorMatch)){
-				$cond2 = true;
-			}else{
-				$cond2 = false;
-			}
-
-			$tmp3=get_field("photographer");
-			if(empty($tmp3[0]->ID) || empty($arrAuthorMatch)){
-				$cond3 = true;
-			}elseif(in_array($tmp3[0]->ID, $arrAuthorMatch)){
-				$cond3 = true;
-			}else{
-				$cond3 = false;
-			}
-
-
-			if($cond1 && $cond2 && $cond3){
 				the_ID(); echo "<br>";
-				the_title(); echo "<br>";
-			}else{
-				echo "no<br>";
-				the_ID(); echo "<br>";
-			}
+				//the_title(); echo "<br>";
 
+
+
+				
+
+
+			// End the loop.
+			endwhile;
 			
 
+global $wp_rewrite;
+    $paginate_base = get_pagenum_link(1);
+    if(strpos($paginate_base, '?') || ! $wp_rewrite->using_permalinks()){
+        $paginate_format = '';
+        $paginate_base = add_query_arg('paged','%#%');
+    }
+    else{
+        $paginate_format = (substr($paginate_base,-1,1) == '/' ? '' : '/') .
+        user_trailingslashit('page/%#%/','paged');;
+        $paginate_base .= '%_%';
+    }
+    echo paginate_links(array(
+        'base' => $paginate_base,
+        'format' => $paginate_format,
+        'total' => $wp_query->max_num_pages,
+        'mid_size' => 4,
+        'current' => ($paged ? $paged : 1),
+        'prev_text' => '« 前へ',
+        'next_text' => '次へ »',
+    )); 			
 
-		// End the loop.
-		endwhile;
-		?>
+
+		}else{
+			var_dump("OVER 100");
+		}
 
 
 
-
-<?php get_footer(); ?>
+get_footer(); ?>
