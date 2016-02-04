@@ -239,6 +239,27 @@ class tadaFunctions{
 			array_push($arrMeta, array("key"=>"publication_year", "value"=>array($metas["publication_year"].'-01-01',$metas["publication_year"].'-12-31'), "compare"=>"BETWEEN",'type'=>'DATE'));
 			$countMeta++;
 		}
+		if($metas["author_1"]){
+			array_push($arrMeta, array("key"=>"author_1_0_name","value"=>$metas["author_1"], "compare" => "LIKE"));
+			$countMeta++;
+		}
+		if($metas["illustrator"]){
+			array_push($arrMeta, array("key"=>"illustrator","value"=>$metas["illustrator"], "compare" => "LIKE"));
+			$countMeta++;
+		}
+		if($metas["photographer"]){
+			array_push($arrMeta, array("key"=>"photographer","value"=>$metas["photographer"], "compare" => "LIKE"));
+			$countMeta++;
+		}				
+		if($metas["arrAuthorMatch"]){
+			$arrSubQuery = array();
+			foreach ($metas["arrAuthorMatch"] as $key => $value) {
+				array_push($arrSubQuery, array("key"=>"author_1_0_name","value"=>$value, "compare" => "LIKE"));
+			}
+			$arrSubQuery["relation"] = 'OR';
+			array_push($arrMeta, $arrSubQuery);
+			$countMeta++;
+		}		
 		if($metas["inc_or_exc"]==1 && $metas["countries_published_in"]){
 			array_push($arrMeta, array("key"=>"countries_published_in", "value"=>$metas["countries_published_in"], "compare"=>"LIKE"));
 			$countMeta++;
@@ -249,5 +270,56 @@ class tadaFunctions{
 		if($countMeta>1){$arrMeta["relation"] = 'AND';}
 		return $arrMeta;
 	}
+
+
+
+
+	function pagination($pages = '', $range = 4) {
+
+		$showitems = ($range * 2)+1;
+		global $paged;
+		if(empty($paged)) $paged = 1;
+		if($pages == ''){
+			global $wp_query;
+			$pages = $wp_query->max_num_pages;
+			if(!$pages){
+				$pages = 1;
+			}
+		}
+
+		if(1 != $pages){
+			echo "<div style=\"display: inline-block;\" class=\"pagenavi\">";
+			if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo "<a href='".get_pagenum_link(1)."'>« First</a>";
+			if($paged > 1 && $showitems < $pages) echo "<a href='".get_pagenum_link($paged - 1)."'>‹ Previous</a>";
+			for ($i=1; $i <= $pages; $i++){
+				if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems )){
+					echo ($paged == $i)? "<span class=\"current page\">".$i."</span>":"<a href='".get_pagenum_link($i)."' class=\"page larger\">".$i."</a>";
+				}
+			}
+			if ($paged < $pages && $showitems < $pages) echo "<a href=\"".get_pagenum_link($paged + 1)."\">Next ›</a>";
+			if ($paged < $pages-1 &&
+			$paged+$range-1 < $pages && $showitems < $pages) echo "<a href='".get_pagenum_link($pages)."'>Last »</a>";
+			echo "</div>\n";
+		}
+	}
+
+}
+
+add_filter('redirect_canonical','my_disable_redirect_canonical');
+
+function my_disable_redirect_canonical( $redirect_url ) {
+
+	if ( is_single() ){
+		$subject = $redirect_url;
+		$pattern = '/\/page\//'; // URLに「/page/」があるかチェック
+		preg_match($pattern, $subject, $matches);
+
+		if ($matches){
+		//リクエストURLに「/page/」があれば、リダイレクトしない。
+		$redirect_url = false;
+		return $redirect_url;
+		}
+	}
+
 }
 
