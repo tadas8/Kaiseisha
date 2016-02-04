@@ -153,7 +153,7 @@ endwhile;
 
 
 ?>
-<form action="<?php echo site_url(); ?>/search" method="post">
+<form action="<?php echo site_url(); ?>/search" method="get">
 <input type="text" name="title">
 <input type="text" name="creator_by_name">
 <select name="categories"><option value="">- Select -</option><option value="CAT1">Picture Book</option><option value="CAT2">Fiction</option><option value="CAT3">Non-Fiction</option><option value="CAT4">Science Books</option></select>
