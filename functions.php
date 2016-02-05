@@ -274,33 +274,62 @@ class tadaFunctions{
 
 
 
-	function pagination($pages = '', $range = 4) {
+	// function pagination($pages = '', $range = 4) {
 
-		$showitems = ($range * 2)+1;
-		global $paged;
-		if(empty($paged)) $paged = 1;
-		if($pages == ''){
-			global $wp_query;
-			$pages = $wp_query->max_num_pages;
-			if(!$pages){
-				$pages = 1;
-			}
-		}
+	// 	$showitems = ($range * 2)+1;
+	// 	global $paged;
+	// 	if(empty($paged)) $paged = 1;
+	// 	if($pages == ''){
+	// 		global $wp_query;
+	// 		$pages = $wp_query->max_num_pages;
+	// 		if(!$pages){
+	// 			$pages = 1;
+	// 		}
+	// 	}
 
-		if(1 != $pages){
-			echo "<div style=\"display: inline-block;\" class=\"pagenavi\">";
-			if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo "<a href='".get_pagenum_link(1)."'>« First</a>";
-			if($paged > 1 && $showitems < $pages) echo "<a href='".get_pagenum_link($paged - 1)."'>‹ Previous</a>";
-			for ($i=1; $i <= $pages; $i++){
-				if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems )){
-					echo ($paged == $i)? "<span class=\"current page\">".$i."</span>":"<a href='".get_pagenum_link($i)."' class=\"page larger\">".$i."</a>";
-				}
-			}
-			if ($paged < $pages && $showitems < $pages) echo "<a href=\"".get_pagenum_link($paged + 1)."\">Next ›</a>";
-			if ($paged < $pages-1 &&
-			$paged+$range-1 < $pages && $showitems < $pages) echo "<a href='".get_pagenum_link($pages)."'>Last »</a>";
-			echo "</div>\n";
-		}
+	// 	if(1 != $pages){
+	// 		echo "<div style=\"display: inline-block;\" class=\"pagenavi\">";
+	// 		if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo "<a href='".get_pagenum_link(1)."'>« First</a>";
+	// 		if($paged > 1 && $showitems < $pages) echo "<a href='".get_pagenum_link($paged - 1)."'>‹ Previous</a>";
+	// 		for ($i=1; $i <= $pages; $i++){
+	// 			if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems )){
+	// 				echo ($paged == $i)? "<span class=\"current page\">".$i."</span>":"<a href='".get_pagenum_link($i)."' class=\"page larger\">".$i."</a>";
+	// 			}
+	// 		}
+	// 		if ($paged < $pages && $showitems < $pages) echo "<a href=\"".get_pagenum_link($paged + 1)."\">Next ›</a>";
+	// 		if ($paged < $pages-1 &&
+	// 		$paged+$range-1 < $pages && $showitems < $pages) echo "<a href='".get_pagenum_link($pages)."'>Last »</a>";
+	// 		echo "</div>\n";
+	// 	}
+	// }
+
+
+
+	function getPagination(){
+		global $wp_rewrite;
+		global $wp_query; 
+		$paged = $_GET["paged"];
+		//var_dump($wp_rewrite);
+	    $paginate_base = get_pagenum_link(1);
+	    if(strpos($paginate_base, '?') || ! $wp_rewrite->using_permalinks()){
+	        $paginate_format = '';
+	        $paginate_base = add_query_arg('paged','%#%');
+	    }else{
+	        $paginate_format = (substr($paginate_base,-1,1) == '/' ? '' : '/') .
+	        user_trailingslashit('?paged=%#%','paged');
+	        $paginate_base .= '%_%';
+	    }
+
+	    $paginate_format = substr($paginate_format, 0, -1);
+	    echo paginate_links(array(
+	        'base' => $paginate_base,
+	        'format' => $paginate_format,
+	        'total' => $wp_query->max_num_pages,
+	        'mid_size' => 4,
+	        'current' => ($paged ? $paged : 1),
+	        'prev_text' => '« Previous',
+	        'next_text' => 'Next »',
+	    )); 
 	}
 
 }

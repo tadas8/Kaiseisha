@@ -1,15 +1,14 @@
 <?php
 /*
-Template Name: Backlist
+Template Name: Overseas
 */
 
 get_header(); 
 $getTadaFunc = new tadaFunctions;
+
 ?>
 
-
-
-<div class="main-content books backlist clearfix">
+<div class="main-content books overseas clearfix">
   <div class="row">
     <header id="page-top" class="col-sm-12 clearfix">
       <div id="page-top-menu" class="clearfix">
@@ -24,28 +23,25 @@ $getTadaFunc = new tadaFunctions;
           Overseas</a></div>
       </div>
       <div id="top-title">
-        <h1 class="page-title">Backlist</h1>
+        <h1 class="page-title">Oversea</h1>
         <div id="top-image"><img src="
 			<?php 
 			if (is_page('fiction')) {
-				echo get_bloginfo('template_directory') . '/images/top/bl_fiction.jpg'; }
+				echo get_bloginfo('template_directory') . '/images/top/os_fiction.jpg'; }
 			elseif (is_page('non-fiction')) {
-				echo get_bloginfo('template_directory') . '/images/top/bl_non-fics.jpg'; }
+				echo get_bloginfo('template_directory') . '/images/top/os_non-fics.jpg'; }
 			elseif (is_page('science')) {
-				echo get_bloginfo('template_directory') . '/images/top/bl_science.jpg'; }
+				echo get_bloginfo('template_directory') . '/images/top/os_science.jpg'; }
 			else {
-				echo get_bloginfo('template_directory') . '/images/top/bl_picture.jpg'; }
+				echo get_bloginfo('template_directory') . '/images/top/os_picture.jpg'; }
 			;?>" alt=""></div>
-
-
-        
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-image-menu">Menu</button>
-
+          
           <!-- The WordPress Menu goes here -->
           <?php wp_nav_menu(
 						array(
-							'theme_location' 	=> 'backlist-menu',
+							'theme_location' 	=> 'overseas-menu',
 							'depth'             => 1,
 							'container'         => 'div',
 							'menu_class' 		=> 'collapse navbar-collapse',
@@ -55,115 +51,9 @@ $getTadaFunc = new tadaFunctions;
 						)
 					); ?>
         </div>
-
-
-
       </div>
     </header>
   </div>
-  
-  
-
-
-          <?php 
-					$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-					
-					if (is_page ( 4077 )) {
-						$posts = array(
-						'paged' => $paged,
-						'posts_per_page' => '20',
-						'post_type' => 'book',
-						'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
-						'meta_query'	=> array(
-							array(
-								'key'		=> 'categories',
-								'value'		=> 'CAT1',
-								'compare'	=> 'IN'
-							)
-						)
-						);
-					}
-					elseif (is_page ( 4079 )) {
-						$posts = array(
-						'paged' => $paged,
-						'posts_per_page' => '20',
-						'post_type' => 'book',
-						'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
-						'meta_query'	=> array(
-							array(
-								'key'		=> 'categories',
-								'value'		=> 'CAT2',
-								'compare'	=> 'IN'
-							)
-						)
-						);
-					}
-					elseif (is_page ( 4081 )) {
-						$posts = array(
-						'paged' => $paged,
-						'posts_per_page' => '20',
-						'post_type' => 'book',
-						'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
-						'meta_query'	=> array(
-							array(
-								'key'		=> 'categories',
-								'value'		=> 'CAT3',
-								'compare'	=> 'IN'
-							)
-						)
-						);
-					}
-					elseif (is_page ( 4083 )) {
-						$posts = array(
-						'paged' => $paged,
-						'posts_per_page' => '20',
-						'post_type' => 'book',
-						'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
-						'meta_query'	=> array(
-							array(
-								'key'		=> 'categories',
-								'value'		=> 'CAT4',
-								'compare'	=> 'IN'
-							)
-						)
-						);
-					}
-					if($_GET["age_groups"]){
-						array_push($posts["meta_query"], array("key"=>"age_groups", "value"=>$_GET["age_groups"], "compare"=>"="));
-						$posts["meta_query"]["relation"] = 'AND';
-					}
-					
-					query_posts($posts);
-					if (have_posts()): ?>
-
-
-
-
-			<div class="pagenavi">
-			</div>    
-
-
-
-
-
-		<form method="GET" action="">
-          		<?php 
-					$field_key = "field_56937dd0eaf87";
-					$field = get_field_object($field_key);
-
-					if( $field )
-					{
-						echo '<select name="' . $field['name'] . '" id="age_group_top" class="Pulldown" size="1"">';
-							foreach( $field['choices'] as $k => $v )
-							{
-								echo '<option value="' . $k . '">' . $v . '</option>';
-							}
-						echo '</select>';
-					}
-				?>
-			<button class="PulldownGo" type="submit">GO</button>
-		</form>
-
 
 
   <div class="row">
@@ -185,6 +75,169 @@ $getTadaFunc = new tadaFunctions;
     	    </div>
 
         <div class="entry-content">
+        
+
+<?php
+
+$field_key = "field_5693a32a65711";
+$field = get_field_object($field_key);
+
+if( in_array( 'CNT7', $field ) )
+
+{
+		foreach( $field['choices'] as $k => $v )
+		{
+					echo '<a href="?country=' . $k . '">' . $v . '</a><br>';
+		}
+}
+
+?>
+
+            <?php
+				$field = get_field_object('countries_published_in');
+				$value = get_field('countries_published_in');
+				$label = $field['choices'][ $value ];
+			?>
+			<?php 
+			$posts = get_sub_field('name');
+			if( $posts ): ?>
+				<?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+				<?php setup_postdata($post); ?>
+                <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+				<?php endforeach; ?>
+				<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+			<?php endif; ?>
+
+
+
+					<?php 
+						$args = array(
+							'post_type' => 'book',
+							'meta_query' => array(
+								array(
+									'key' => 'author_1_%_name', // name of custom field
+									'value' => '"' . get_the_ID() . '"',
+									'compare' => 'LIKE'
+								)
+							)
+						);
+					$posts = get_posts( $args ); ?>
+                    
+                    
+						<?php if( $posts ): ?>
+                	<ul class="related-books clearfix">
+					<?php foreach( $posts as $post): ?>
+                    <li>
+					<?php setup_postdata($post); ?>
+	        	    	<a href="<?php the_permalink(); ?>">
+						<?php if (has_post_thumbnail()): ?><?php the_post_thumbnail(); ?>
+						<?php elseif (get_field('joomla_image_url')): ?><img src="<?php echo esc_url( home_url( '/wp-content/uploads/' )) ?><?php the_field('joomla_image_url') ?>" />
+						<?php else: ?><img src="<?php echo get_bloginfo('template_directory');?>/images/no_image.jpg" />
+						<?php endif ?>
+                        </a>
+           		    	<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+					</li>
+					<?php endforeach; ?>
+					</ul>
+						<?php endif; ?>
+
+
+
+
+
+
+          <?php 
+					
+					if (is_page ( 4097 )) {
+						$posts = array(
+						'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
+						'meta_query'	=> array(
+							'relation'		=> 'AND',
+							array(
+								'key'		=> 'countries_published_in',
+								'value'		=> 'CAT1',
+								'compare'	=> 'IN'
+							),
+							array(
+								'key'		=> 'new',
+								'value'		=> true,
+								'compare'	=> '='
+							)
+						)
+						);
+					}
+					elseif (is_page ( 4098 )) {
+						$posts = array(
+						'paged' => $paged,
+						'posts_per_page' => '20',
+						'post_type' => 'book',
+						'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
+						'meta_query'	=> array(
+							'relation'		=> 'AND',
+							array(
+								'key'		=> 'categories',
+								'value'		=> 'CAT2',
+								'compare'	=> 'IN'
+							),
+							array(
+								'key'		=> 'new',
+								'value'		=> true,
+								'compare'	=> '='
+							)
+						)
+						);
+					}
+					elseif (is_page ( 4099 )) {
+						$posts = array(
+						'paged' => $paged,
+						'posts_per_page' => '20',
+						'post_type' => 'book',
+						'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
+						'meta_query'	=> array(
+							'relation'		=> 'AND',
+							array(
+								'key'		=> 'categories',
+								'value'		=> 'CAT3',
+								'compare'	=> 'IN'
+							),
+							array(
+								'key'		=> 'new',
+								'value'		=> true,
+								'compare'	=> '='
+							)
+						)
+						);
+					}
+					elseif (is_page ( 4100 )) {
+						$posts = array(
+						'paged' => $paged,
+						'posts_per_page' => '20',
+						'post_type' => 'book',
+						'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
+						'meta_query'	=> array(
+							'relation'		=> 'AND',
+							array(
+								'key'		=> 'categories',
+								'value'		=> 'CAT4',
+								'compare'	=> 'IN'
+							),
+							array(
+								'key'		=> 'new',
+								'value'		=> true,
+								'compare'	=> '='
+							)
+						)
+						);
+					}
+
+					if($_GET["country"]){
+						array_push($posts["meta_query"], array("key"=>"countries_published_in", "value"=>$_GET["country"], "compare"=>"LIKE"));
+						$posts["meta_query"]["relation"] = 'AND';
+					}
+
+					query_posts($posts);
+					if (have_posts()): ?>
+
           <ul class="booklist clearfix">
 
           <?php while (have_posts()) : the_post();?>
@@ -193,7 +246,7 @@ $getTadaFunc = new tadaFunctions;
           
           	<li>
             	<div class="inner clearfix">
-                	<div class="coverimage clearfix">
+                	<div class="bookcover clearfix">
             	<?php if (has_post_thumbnail()): ?>
 							<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
 				<?php elseif (get_field('joomla_image_url')): ?>
@@ -201,7 +254,7 @@ $getTadaFunc = new tadaFunctions;
 				<?php endif ?>
 					</div>
 
-                	<div class="details clearfix">
+                	<div class="bookdetails clearfix">
 			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
             <?php if( have_rows('author_1') ): ?><?php while ( have_rows('author_1') ) : the_row(); ?>
@@ -444,7 +497,6 @@ $getTadaFunc = new tadaFunctions;
         <?php endwhile; ?>
 
 		</ul>
-
 		<?php echo $getTadaFunc->getPagination();	?>
 
           <?php else: ?>
@@ -455,24 +507,12 @@ $getTadaFunc = new tadaFunctions;
 
 
 
-     <?php endif; ?>
-
-
-
-
-
-
-
-
-
-
-
-
+          <?php endif; ?>
 
 
 
         </div>
-        <!-- .entry-content -->
+        <!-- .entry-content --> 
       </article>
       <!-- #post-## --> 
     </div>

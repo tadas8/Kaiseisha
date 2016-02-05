@@ -154,12 +154,12 @@ endwhile;
 
 ?>
 <form action="<?php echo site_url(); ?>/search" method="get">
-<input type="text" name="title">
-<input type="text" name="creator_by_name">
-<select name="categories"><option value="">- Select -</option><option value="CAT1">Picture Book</option><option value="CAT2">Fiction</option><option value="CAT3">Non-Fiction</option><option value="CAT4">Science Books</option></select>
-<select name="age_groups"><option value="">- Select -</option><option value="AG1">Ages 0 UP</option><option value="AG2">Ages 1 UP</option><option value="AG3">Ages 2 UP</option><option value="AG4">Ages 3 UP</option><option value="AG5">Ages 4 UP</option><option value="AG6">Ages 5 UP</option><option value="AG7">Ages 6 UP</option><option value="AG8">Ages 7 UP</option><option value="AG9">Ages 8 UP</option><option value="AG10">Ages 9 UP</option><option value="AG11">Ages 10 UP</option><option value="AG12">Ages 11 UP</option><option value="AG13">Ages 12 UP</option><option value="AG14">Young Adult</option><option value="AG15">All Ages</option></select>
+<input type="text" name="title" class="src-title">
+<input type="text" name="creator_by_name" class="src-creator-by-name">
+<select name="categories" class="src-categories"><option value="">- Select -</option><option value="CAT1">Picture Book</option><option value="CAT2">Fiction</option><option value="CAT3">Non-Fiction</option><option value="CAT4">Science Books</option></select>
+<select name="age_groups" class="src-age-groups"><option value="">- Select -</option><option value="AG1">Ages 0 UP</option><option value="AG2">Ages 1 UP</option><option value="AG3">Ages 2 UP</option><option value="AG4">Ages 3 UP</option><option value="AG5">Ages 4 UP</option><option value="AG6">Ages 5 UP</option><option value="AG7">Ages 6 UP</option><option value="AG8">Ages 7 UP</option><option value="AG9">Ages 8 UP</option><option value="AG10">Ages 9 UP</option><option value="AG11">Ages 10 UP</option><option value="AG12">Ages 11 UP</option><option value="AG13">Ages 12 UP</option><option value="AG14">Young Adult</option><option value="AG15">All Ages</option></select>
 
-<select name="publication_year">
+<select name="publication_year" class="src-publication-year">
 <option value="">-select</option>
   <?php
   $thisYear = date("Y");
@@ -169,7 +169,7 @@ endwhile;
   ?>
 </select>
 
-<select name="author_1">
+<select name="author_1" class="src-author_1">
 <option value="">-select</option>
   <?php
   foreach ($arrCT1 as $key => $value) {
@@ -178,7 +178,7 @@ endwhile;
   ?>
 </select>
 
-<select name="illustrator">
+<select name="illustrator" class="src-illustrator">
 <option value="">-select</option>
   <?php
   foreach ($arrCT2 as $key => $value) {
@@ -186,7 +186,7 @@ endwhile;
   }
   ?>
 </select>
-<select name="photographer">
+<select name="photographer" class="src-photographer">
 <option value="">-select</option>
 
   <?php
@@ -197,11 +197,11 @@ endwhile;
 </select>
 
 <br>
-<input type="radio" name="inc_or_exc" value="0" checked>exclude<br>
-<input type="radio" name="inc_or_exc" value="1" checked>include<br>
+<input class="src-exc" type="radio" name="inc_or_exc" value="0" checked>exclude<br>
+<input class="src-inc" type="radio" name="inc_or_exc" value="1" checked>include<br>
 
 
-<select name="countries_published_in">
+<select name="countries_published_in" class="src-countries-published-in">
 <option value="">- select</option>
 <option value="CNT1">Finland</option>
 <option value="CNT2">France</option>
@@ -240,7 +240,7 @@ endwhile;
 <option value="CNT36">Venezuela</option>
 </select>
 
-  <input type="submit" value="Submit">
+  <input type="submit" value="Submit" class="src-submit">
 
 
 </form>
