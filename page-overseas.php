@@ -2,7 +2,6 @@
 /*
 Template Name: Overseas
 */
-
 get_header(); 
 $getTadaFunc = new tadaFunctions;
 
@@ -39,17 +38,7 @@ $getTadaFunc = new tadaFunctions;
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-image-menu">Menu</button>
           
           <!-- The WordPress Menu goes here -->
-          <?php wp_nav_menu(
-						array(
-							'theme_location' 	=> 'overseas-menu',
-							'depth'             => 1,
-							'container'         => 'div',
-							'menu_class' 		=> 'collapse navbar-collapse',
-							'fallback_cb' 		=> 'wp_bootstrap_navwalker::fallback',
-							'menu_id'			=> 'top-image-menu',
-							'walker' 			=> new wp_bootstrap_navwalker()
-						)
-					); ?>
+
         </div>
       </div>
     </header>
@@ -62,35 +51,22 @@ $getTadaFunc = new tadaFunctions;
 
         	<div class="navbar navbar-kaiseisha">          
           	<!-- The WordPress Menu goes here -->
-          	<?php wp_nav_menu(
-						array(
-							'theme_location' 	=> 'creators-menu',
-							'depth'             => 1,
-							'menu_class'   => 'clearfix',
-							'fallback_cb' 		=> 'wp_bootstrap_navwalker::fallback',
-							'menu_id'			=> 'creators-menu',
-							'walker' 			=> new wp_bootstrap_navwalker()
-						)
-						); ?>
+          	
     	    </div>
 
         <div class="entry-content">
         
 
 <?php
-
 $field_key = "field_5693a32a65711";
 $field = get_field_object($field_key);
-
 if( in_array( 'CNT7', $field ) )
-
 {
 		foreach( $field['choices'] as $k => $v )
 		{
 					echo '<a href="?country=' . $k . '">' . $v . '</a><br>';
 		}
 }
-
 ?>
 
             <?php
@@ -131,7 +107,7 @@ if( in_array( 'CNT7', $field ) )
 					<?php setup_postdata($post); ?>
 	        	    	<a href="<?php the_permalink(); ?>">
 						<?php if (has_post_thumbnail()): ?><?php the_post_thumbnail(); ?>
-						<?php elseif (get_field('joomla_image_url')): ?><img src="<?php echo esc_url( home_url( '/wp-content/uploads/' )) ?><?php the_field('joomla_image_url') ?>" />
+						<?php elseif (get_field('joomla_image_url')): ?><img src="<?php echo esc_url( home_url( '/wp-content/uploads/' )) ?><?php the_field('joomla_image_url'); ?>" />
 						<?php else: ?><img src="<?php echo get_bloginfo('template_directory');?>/images/no_image.jpg" />
 						<?php endif ?>
                         </a>
@@ -229,12 +205,10 @@ if( in_array( 'CNT7', $field ) )
 						)
 						);
 					}
-
 					if($_GET["country"]){
 						array_push($posts["meta_query"], array("key"=>"countries_published_in", "value"=>$_GET["country"], "compare"=>"LIKE"));
 						$posts["meta_query"]["relation"] = 'AND';
 					}
-
 					query_posts($posts);
 					if (have_posts()): ?>
 
@@ -250,7 +224,7 @@ if( in_array( 'CNT7', $field ) )
             	<?php if (has_post_thumbnail()): ?>
 							<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
 				<?php elseif (get_field('joomla_image_url')): ?>
-							<a href="<?php the_permalink(); ?>"><img src="<?php echo esc_url( home_url( '/wp-content/uploads/' )) ?><?php the_field('joomla_image_url') ?>" /></a>
+							<a href="<?php the_permalink(); ?>"><img src="<?php echo esc_url( home_url( '/wp-content/uploads/' )); ?><?php $getTadaFunc->getCountryCode(get_field('joomla_image_url'), $_GET["country"]); ?>" /></a>
 				<?php endif ?>
 					</div>
 
