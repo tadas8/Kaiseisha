@@ -270,12 +270,7 @@ class tadaFunctions{
 		if($countMeta>1){$arrMeta["relation"] = 'AND';}
 		return $arrMeta;
 	}
-
-
-
-
 	// function pagination($pages = '', $range = 4) {
-
 	// 	$showitems = ($range * 2)+1;
 	// 	global $paged;
 	// 	if(empty($paged)) $paged = 1;
@@ -286,7 +281,6 @@ class tadaFunctions{
 	// 			$pages = 1;
 	// 		}
 	// 	}
-
 	// 	if(1 != $pages){
 	// 		echo "<div style=\"display: inline-block;\" class=\"pagenavi\">";
 	// 		if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo "<a href='".get_pagenum_link(1)."'>« First</a>";
@@ -302,9 +296,6 @@ class tadaFunctions{
 	// 		echo "</div>\n";
 	// 	}
 	// }
-
-
-
 	function getPagination(){
 		global $wp_rewrite;
 		global $wp_query; 
@@ -319,7 +310,6 @@ class tadaFunctions{
 	        user_trailingslashit('?paged=%#%','paged');
 	        $paginate_base .= '%_%';
 	    }
-
 	    $paginate_format = substr($paginate_format, 0, -1);
 	    echo paginate_links(array(
 	        'base' => $paginate_base,
@@ -332,23 +322,65 @@ class tadaFunctions{
 	    )); 
 	}
 
+	function getCountryCode($link, $code=null){
+
+		$arrCountryCodes = array(
+						"CNT1" => "FI",
+						"CNT2" => "FR",
+						"CNT3" => "DE",
+						"CNT4" => "NO",
+						"CNT5" => "ES",
+						"CNT6" => "SE",
+						"CNT7" => "GB",
+						"CNT8" => "CN",
+						"CNT9" => "IN",
+						"CNT10" => "KR",
+						"CNT11" => "TW",
+						"CNT12" => "CA",
+						"CNT13" => "US",
+						"CNT14" => "TH",
+						"CNT15" => "IT",
+						"CNT16" => "NL",
+						"CNT17" => "HU",
+						"CNT18" => "BE",
+						"CNT19" => "BG",
+						"CNT20" => "HK",
+						"CNT21" => "AU",
+						"CNT22" => "BR",
+						"CNT23" => "ID",
+						"CNT24" => "AR",
+						"CNT25" => "MX",
+						"CNT26" => "NZ",
+						"CNT29" => "RU",
+						"CNT28" => "PT",
+						"CNT30" => "CL",
+						"CNT31" => "BQ",
+						"CNT32" => "VN",
+						"CNT33" => "PL",
+						"CNT34" => "IR",
+						"CNT35" => "JP",
+						"CNT36" => "VE"
+						);
+
+		if($code){
+			$separetedLink = explode(".", $link);
+			echo $separetedLink[0].'_'.$arrCountryCodes[$code].'.'.$separetedLink[1];
+		}else{
+			echo $link;
+		}
+		
+	}
 }
-
 add_filter('redirect_canonical','my_disable_redirect_canonical');
-
 function my_disable_redirect_canonical( $redirect_url ) {
-
 	if ( is_single() ){
 		$subject = $redirect_url;
 		$pattern = '/\/page\//'; // URLに「/page/」があるかチェック
 		preg_match($pattern, $subject, $matches);
-
 		if ($matches){
 		//リクエストURLに「/page/」があれば、リダイレクトしない。
 		$redirect_url = false;
 		return $redirect_url;
 		}
 	}
-
 }
-
