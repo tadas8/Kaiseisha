@@ -315,10 +315,10 @@ class tadaFunctions{
 	        'base' => $paginate_base,
 	        'format' => $paginate_format,
 	        'total' => $wp_query->max_num_pages,
-	        'mid_size' => 4,
+	        'mid_size' => 1,
 	        'current' => ($paged ? $paged : 1),
-	        'prev_text' => '« Previous',
-	        'next_text' => 'Next »',
+	        'prev_text' => 'Previous',
+	        'next_text' => 'Next',
 	    )); 
 	}
 
@@ -364,12 +364,44 @@ class tadaFunctions{
 
 		if($code){
 			$separetedLink = explode(".", $link);
-			echo $separetedLink[0].'_'.$arrCountryCodes[$code].'.'.$separetedLink[1];
+			$url = $separetedLink[0].'_'.$arrCountryCodes[$code].'.'.$separetedLink[1];
+			$upload_dir = wp_upload_dir();
+
+			if (file_exists($upload_dir['basedir'].'/'.$url)){
+				echo $url;
+			}else{
+				echo $link;
+			}
 		}else{
 			echo $link;
 		}
 		
 	}
+
+
+
+
+	function getSortedNames($names){
+		$arrNames = array();
+		foreach ($names as $key => $value) {
+			$tmp = split(' ', $value["title"], 2);
+			if(empty($tmp[1])){
+				$tmp[1] = $tmp[0];
+				$tmp[0] = "";
+			}
+			array_push($arrNames, array("F"=>$tmp[0],"L"=>$tmp[1],"I"=>$tmp[1][0],"id"=>$value["id"]));
+		}
+
+		foreach ($arrNames as $key => $value){
+		  $key_id[$key] = $value['L'];
+		}
+		array_multisort ( $key_id , SORT_ASC , $arrNames);
+		return $arrNames;
+		//echo "<pre>";var_dump($arrNames);echo "</pre>";
+
+	}
+
+
 }
 add_filter('redirect_canonical','my_disable_redirect_canonical');
 function my_disable_redirect_canonical( $redirect_url ) {

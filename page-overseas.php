@@ -36,22 +36,79 @@ $getTadaFunc = new tadaFunctions;
 			;?>" alt=""></div>
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-image-menu">Menu</button>
-          
-          <!-- The WordPress Menu goes here -->
 
+          <!-- The WordPress Menu goes here -->
+          <?php wp_nav_menu(
+						array(
+							'theme_location' 	=> 'overseas-menu',
+							'depth'             => 1,
+							'container'         => 'div',
+							'menu_class' 		=> 'collapse navbar-collapse',
+							'fallback_cb' 		=> 'wp_bootstrap_navwalker::fallback',
+							'menu_id'			=> 'top-image-menu',
+							'walker' 			=> new wp_bootstrap_navwalker()
+						)
+					); ?>
         </div>
       </div>
     </header>
   </div>
 
+<?php get_template_part( 'content', 'search-panel' ); ?>
 
-  <div class="row">
+<div id="main" class="row">
+
+
+
+	<div class="content-navi col-sm-12 clearfix">
+
+    	<div class="right">
+        	<div class="page-jump">
+        	View other countries
+		<form method="GET" action="">
+  			<?php 
+				$field_key = "field_5693a32a65711";
+				$field = get_field_object($field_key);
+				if( $field )
+				{
+					echo '<select name="country" id="countries_published_in" class="Pulldown" size="1"">';
+						foreach( $field['choices'] as $k => $v )
+						{
+							echo '<option value="' . $k . '">' . $v . '</option>';
+						}
+					echo '</select>';
+				}
+			?>
+			<button class="PulldownGo" type="submit">GO</button>
+		</form>
+			</div>
+    	</div>
+
+    	<div class="left">
+        	<div class="pagination-title">
+            	<?php if ($_GET['country']) {echo $_GET['country'];} ?>
+        	</div>
+			<div class="pagination-numbers"><?php echo $getTadaFunc->getPagination();	?></div>
+    	</div>
+
+    </div>
+
+
     <div class="col-sm-12">
       <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
         	<div class="navbar navbar-kaiseisha">          
           	<!-- The WordPress Menu goes here -->
-          	
+          	<?php wp_nav_menu(
+						array(
+							'theme_location' 	=> 'creators-menu',
+							'depth'             => 1,
+							'menu_class'   => 'clearfix',
+							'fallback_cb' 		=> 'wp_bootstrap_navwalker::fallback',
+							'menu_id'			=> 'creators-menu',
+							'walker' 			=> new wp_bootstrap_navwalker()
+						)
+						); ?>
     	    </div>
 
         <div class="entry-content">
@@ -60,13 +117,16 @@ $getTadaFunc = new tadaFunctions;
 <?php
 $field_key = "field_5693a32a65711";
 $field = get_field_object($field_key);
-if( in_array( 'CNT7', $field ) )
-{
-		foreach( $field['choices'] as $k => $v )
-		{
-					echo '<a href="?country=' . $k . '">' . $v . '</a><br>';
-		}
+if(!$_GET["country"]){
+	if( in_array( 'CNT7', $field ) )
+	{
+			foreach( $field['choices'] as $k => $v )
+			{
+						echo '<a href="?country=' . $k . '">' . $v . '</a><br>';
+			}
+	}
 }
+if($_GET["country"]): //not shown in top
 ?>
 
             <?php
@@ -125,29 +185,30 @@ if( in_array( 'CNT7', $field ) )
           <?php 
 					
 					if (is_page ( 4097 )) {
-						$posts = array(
-						'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
-						'meta_query'	=> array(
-							'relation'		=> 'AND',
-							array(
-								'key'		=> 'countries_published_in',
-								'value'		=> 'CAT1',
-								'compare'	=> 'IN'
-							),
-							array(
-								'key'		=> 'new',
-								'value'		=> true,
-								'compare'	=> '='
+						if($_GET["country"]){
+							$posts = array(
+							'paged' => $paged,
+							'posts_per_page' => '20',
+							'post_type' => 'book',
+							'order'     => 'ASC',
+							'orderby' => 'meta_value',
+							'meta_key' => 'age_groups',
+							//'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
+							'meta_query'	=> array(
+								
 							)
-						)
-						);
+							);
+						}
 					}
 					elseif (is_page ( 4098 )) {
 						$posts = array(
 						'paged' => $paged,
 						'posts_per_page' => '20',
 						'post_type' => 'book',
-						'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
+							'order'     => 'ASC',
+							'orderby' => 'meta_value',
+							'meta_key' => 'age_groups',
+						//'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
 						'meta_query'	=> array(
 							'relation'		=> 'AND',
 							array(
@@ -168,7 +229,10 @@ if( in_array( 'CNT7', $field ) )
 						'paged' => $paged,
 						'posts_per_page' => '20',
 						'post_type' => 'book',
-						'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
+							'order'     => 'ASC',
+							'orderby' => 'meta_value',
+							'meta_key' => 'age_groups',
+						//'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
 						'meta_query'	=> array(
 							'relation'		=> 'AND',
 							array(
@@ -189,7 +253,10 @@ if( in_array( 'CNT7', $field ) )
 						'paged' => $paged,
 						'posts_per_page' => '20',
 						'post_type' => 'book',
-						'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
+							'order'     => 'ASC',
+							'orderby' => 'meta_value',
+							'meta_key' => 'age_groups',
+						//'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
 						'meta_query'	=> array(
 							'relation'		=> 'AND',
 							array(
@@ -209,6 +276,7 @@ if( in_array( 'CNT7', $field ) )
 						array_push($posts["meta_query"], array("key"=>"countries_published_in", "value"=>$_GET["country"], "compare"=>"LIKE"));
 						$posts["meta_query"]["relation"] = 'AND';
 					}
+					//echo "<pre>";var_dump($posts);echo "</pre>";
 					query_posts($posts);
 					if (have_posts()): ?>
 
@@ -220,16 +288,16 @@ if( in_array( 'CNT7', $field ) )
           
           	<li>
             	<div class="inner clearfix">
-                	<div class="bookcover clearfix">
+                	<div class="coverimage clearfix">
             	<?php if (has_post_thumbnail()): ?>
-							<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+							<a href="<?php the_permalink(); if($_GET["country"]){echo '?country='.$_GET["country"];} ?>"><?php the_post_thumbnail(); ?></a>
 				<?php elseif (get_field('joomla_image_url')): ?>
-							<a href="<?php the_permalink(); ?>"><img src="<?php echo esc_url( home_url( '/wp-content/uploads/' )); ?><?php $getTadaFunc->getCountryCode(get_field('joomla_image_url'), $_GET["country"]); ?>" /></a>
+							<a href="<?php the_permalink(); if($_GET["country"]){echo '?country='.$_GET["country"];} ?>"><img src="<?php echo esc_url( home_url( '/wp-content/uploads/' )); ?><?php $getTadaFunc->getCountryCode(get_field('joomla_image_url'), $_GET["country"]); ?>" /></a>
 				<?php endif ?>
 					</div>
 
-                	<div class="bookdetails clearfix">
-			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                	<div class="details clearfix">
+			<h2><a href="<?php the_permalink(); if($_GET["country"]){echo '?country='.$_GET["country"];} ?>"><?php the_title(); ?></a></h2>
 
             <?php if( have_rows('author_1') ): ?><?php while ( have_rows('author_1') ) : the_row(); ?>
 			<h4>
@@ -483,6 +551,9 @@ if( in_array( 'CNT7', $field ) )
 
           <?php endif; ?>
 
+<?php
+endif;
+?>
 
 
         </div>
@@ -490,6 +561,42 @@ if( in_array( 'CNT7', $field ) )
       </article>
       <!-- #post-## --> 
     </div>
+
+
+	<div class="content-navi bottom col-sm-12 clearfix">
+
+    	<div class="left">
+        	<div class="pagination-title">
+            	<?php if ($_GET['country']) {echo $_GET['country'];} ?>
+            </div>
+			<div class="pagination-numbers"><?php echo $getTadaFunc->getPagination();	?></div>
+    	</div>
+
+    	<div class="right">
+        	<div class="page-jump">
+        	View other countries
+				<form method="GET" action="">
+          			<?php 
+						$field_key = "field_5693a32a65711";
+						$field = get_field_object($field_key);
+						if( $field )
+						{
+							echo '<select name="country" id="countries_published_in" class="Pulldown" size="1"">';
+								foreach( $field['choices'] as $k => $v )
+								{
+									echo '<option value="' . $k . '">' . $v . '</option>';
+								}
+							echo '</select>';
+						}
+					?>
+					<button class="PulldownGo" type="submit">GO</button>
+				</form>
+			</div>
+    	</div>
+
+    </div>
+
+
   </div>
   <!-- close .row --> 
 </div>

@@ -61,10 +61,9 @@ $getTadaFunc = new tadaFunctions;
       </div>
     </header>
   </div>
-  
-  
 
-
+<?php get_template_part( 'content', 'search-panel' ); ?>
+  
           <?php 
 					$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 					
@@ -73,6 +72,9 @@ $getTadaFunc = new tadaFunctions;
 						'paged' => $paged,
 						'posts_per_page' => '20',
 						'post_type' => 'book',
+						'order'     => 'ASC',
+						'orderby' => 'meta_value',
+						'meta_key' => 'age_groups',
 						'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
 						'meta_query'	=> array(
 							array(
@@ -88,6 +90,9 @@ $getTadaFunc = new tadaFunctions;
 						'paged' => $paged,
 						'posts_per_page' => '20',
 						'post_type' => 'book',
+						'order'     => 'ASC',
+						'orderby' => 'meta_value',
+						'meta_key' => 'age_groups',
 						'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
 						'meta_query'	=> array(
 							array(
@@ -103,6 +108,9 @@ $getTadaFunc = new tadaFunctions;
 						'paged' => $paged,
 						'posts_per_page' => '20',
 						'post_type' => 'book',
+						'order'     => 'ASC',
+						'orderby' => 'meta_value',
+						'meta_key' => 'age_groups',
 						'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
 						'meta_query'	=> array(
 							array(
@@ -118,6 +126,9 @@ $getTadaFunc = new tadaFunctions;
 						'paged' => $paged,
 						'posts_per_page' => '20',
 						'post_type' => 'book',
+						'order'     => 'ASC',
+						'orderby' => 'meta_value',
+						'meta_key' => 'age_groups',
 						'orderby' => array( 'meta_value' => 'ASC', 'ID' => 'ASC','date' => 'DESC', 'title' => 'ASC' ),
 						'meta_query'	=> array(
 							array(
@@ -139,13 +150,15 @@ $getTadaFunc = new tadaFunctions;
 
 
 
-			<div class="pagenavi">
-			</div>    
 
 
+<div id="main" class="row">
+  
+	<div class="content-navi col-sm-12 clearfix">
 
-
-
+    	<div class="right">
+        	<div class="page-jump">
+        	View other age groups
 		<form method="GET" action="">
           		<?php 
 					$field_key = "field_56937dd0eaf87";
@@ -163,10 +176,16 @@ $getTadaFunc = new tadaFunctions;
 				?>
 			<button class="PulldownGo" type="submit">GO</button>
 		</form>
+			</div>
+    	</div>
 
+    	<div class="left">
+        	<div class="pagination-title"></div>
+			<div class="pagination-numbers"><?php echo $getTadaFunc->getPagination();	?></div>
+    	</div>
 
+    </div>
 
-  <div class="row">
     <div class="col-sm-12">
       <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
@@ -413,21 +432,21 @@ $getTadaFunc = new tadaFunctions;
 
 
             <?php if (get_field('age_groups')): ?>
-            	<?php if (get_field('age_groups') == "AG1"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/newtitles/0.gif" />
-            	<?php elseif (get_field('age_groups') == "AG2"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/newtitles/1.gif" />
-            	<?php elseif (get_field('age_groups') == "AG3"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/newtitles/2.gif" />
-            	<?php elseif (get_field('age_groups') == "AG4"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/newtitles/3.gif" />
-            	<?php elseif (get_field('age_groups') == "AG5"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/newtitles/4.gif" />
-            	<?php elseif (get_field('age_groups') == "AG6"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/newtitles/5.gif" />
-            	<?php elseif (get_field('age_groups') == "AG7"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/newtitles/6.gif" />
-            	<?php elseif (get_field('age_groups') == "AG8"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/newtitles/7.gif" />
-            	<?php elseif (get_field('age_groups') == "AG9"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/newtitles/8.gif" />
-            	<?php elseif (get_field('age_groups') == "AG10"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/newtitles/9.gif" />
-            	<?php elseif (get_field('age_groups') == "AG11"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/newtitles/10.gif" />
-            	<?php elseif (get_field('age_groups') == "AG12"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/newtitles/11.gif" />
-            	<?php elseif (get_field('age_groups') == "AG13"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/newtitles/12.gif" />
-            	<?php elseif (get_field('age_groups') == "AG14"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/newtitles/young_adult.gif" />
-            	<?php elseif (get_field('age_groups') == "AG15"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/newtitles/all.gif" />
+            	<?php if (get_field('age_groups') == "AG1"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/backlist/0.gif" />
+            	<?php elseif (get_field('age_groups') == "AG2"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/backlist/1.gif" />
+            	<?php elseif (get_field('age_groups') == "AG3"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/backlist/2.gif" />
+            	<?php elseif (get_field('age_groups') == "AG4"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/backlist/3.gif" />
+            	<?php elseif (get_field('age_groups') == "AG5"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/backlist/4.gif" />
+            	<?php elseif (get_field('age_groups') == "AG6"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/backlist/5.gif" />
+            	<?php elseif (get_field('age_groups') == "AG7"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/backlist/6.gif" />
+            	<?php elseif (get_field('age_groups') == "AG8"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/backlist/7.gif" />
+            	<?php elseif (get_field('age_groups') == "AG9"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/backlist/8.gif" />
+            	<?php elseif (get_field('age_groups') == "AG10"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/backlist/9.gif" />
+            	<?php elseif (get_field('age_groups') == "AG11"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/backlist/10.gif" />
+            	<?php elseif (get_field('age_groups') == "AG12"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/backlist/11.gif" />
+            	<?php elseif (get_field('age_groups') == "AG13"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/backlist/12.gif" />
+            	<?php elseif (get_field('age_groups') == "AG14"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/backlist/young_adult.gif" />
+            	<?php elseif (get_field('age_groups') == "AG15"): ?><img src="<?php echo get_bloginfo('template_directory');?>/images/backlist/all.gif" />
                 <?php endif; ?>
 			<?php endif; ?>
 			<?php
@@ -445,12 +464,63 @@ $getTadaFunc = new tadaFunctions;
 
 		</ul>
 
-		<?php echo $getTadaFunc->getPagination();	?>
 
           <?php else: ?>
 
 
 
+<div id="main" class="row">
+
+	<div class="content-navi col-sm-12 clearfix">
+
+    	<div class="right">
+        	<div class="page-jump">
+        	View other age groups
+				<form method="GET" action="">
+          			<?php 
+						$field_key = "field_56937dd0eaf87";
+						$field = get_field_object($field_key);
+
+						if( $field )
+						{
+							echo '<select name="' . $field['name'] . '" id="age_group_top" class="Pulldown" size="1"">';
+								foreach( $field['choices'] as $k => $v )
+								{
+									echo '<option value="' . $k . '">' . $v . '</option>';
+								}
+							echo '</select>';
+						}
+					?>
+					<button class="PulldownGo" type="submit">GO</button>
+				</form>
+			</div>
+    	</div>
+
+    	<div class="left">
+        	<div class="pagination-title"></div>
+			<div class="pagination-numbers"><?php echo $getTadaFunc->getPagination();	?></div>
+    	</div>
+
+    </div>
+	
+    <div class="col-sm-12">
+      <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+        	<div class="navbar navbar-kaiseisha">          
+          	<!-- The WordPress Menu goes here -->
+          	<?php wp_nav_menu(
+						array(
+							'theme_location' 	=> 'creators-menu',
+							'depth'             => 1,
+							'menu_class'   => 'clearfix',
+							'fallback_cb' 		=> 'wp_bootstrap_navwalker::fallback',
+							'menu_id'			=> 'creators-menu',
+							'walker' 			=> new wp_bootstrap_navwalker()
+						)
+						); ?>
+    	    </div>
+
+        <div class="entry-content">
           <p>There are no new titles for the current period.</p>
 
 
@@ -476,6 +546,43 @@ $getTadaFunc = new tadaFunctions;
       </article>
       <!-- #post-## --> 
     </div>
+
+
+	<div class="content-navi bottom col-sm-12 clearfix">
+
+    	<div class="left">
+        	<div class="pagination-title">
+            	<?php if (isset($_POST['AG3'])) {echo 'Age 2';} ?>
+            </div>
+			<div class="pagination-numbers"><?php echo $getTadaFunc->getPagination();	?></div>
+    	</div>
+
+    	<div class="right">
+        	<div class="page-jump">
+        	View other age groups
+				<form method="GET" action="">
+          			<?php 
+						$field_key = "field_56937dd0eaf87";
+						$field = get_field_object($field_key);
+
+						if( $field )
+						{
+							echo '<select name="' . $field['name'] . '" id="age_group_top" class="Pulldown" size="1"">';
+								foreach( $field['choices'] as $k => $v )
+								{
+									echo '<option value="' . $k . '">' . $v . '</option>';
+								}
+							echo '</select>';
+						}
+					?>
+					<button class="PulldownGo" type="submit">GO</button>
+				</form>
+			</div>
+    	</div>
+
+    </div>
+
+
   </div>
   <!-- close .row --> 
 </div>
